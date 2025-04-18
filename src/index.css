@@ -35,20 +35,23 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Algorithm visualizer light mode colors */
+    --algo-default: 220 13% 69%;
+    --algo-comparing: 214 81% 65%;
+    --algo-sorted: 137 39% 65%;
+    --algo-selected: 40 92% 75%;
+    --algo-swapping: 354 70% 65%;
+    --algo-pivot: 292 45% 68%;
+    --algo-bg: 220 16% 25%;
+    --algo-text: 218 11% 95%;
   }
 
   .dark {
@@ -87,6 +90,16 @@
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Algorithm visualizer dark mode colors */
+    --algo-default: 220 13% 45%;
+    --algo-comparing: 214 81% 45%;
+    --algo-sorted: 137 39% 45%;
+    --algo-selected: 40 92% 45%;
+    --algo-swapping: 354 70% 45%;
+    --algo-pivot: 292 45% 45%;
+    --algo-bg: 220 16% 20%;
+    --algo-text: 218 11% 90%;
   }
 }
 
@@ -98,4 +111,34 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scaleY(0.9);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.array-bar {
+  transition: height 0.3s, background-color 0.3s;
+}
+
+.array-bar.swapping {
+  animation: pulse 0.5s ease infinite;
+}
+
+.array-bar.sorted {
+  animation: scale 0.5s ease forwards;
 }

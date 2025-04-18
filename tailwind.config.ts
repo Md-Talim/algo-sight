@@ -61,6 +61,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Algorithm visualizer colors
+				algo: {
+					'default': 'hsl(var(--algo-default))',
+					'comparing': 'hsl(var(--algo-comparing))',
+					'sorted': 'hsl(var(--algo-sorted))',
+					'selected': 'hsl(var(--algo-selected))',
+					'swapping': 'hsl(var(--algo-swapping))',
+					'pivot': 'hsl(var(--algo-pivot))',
+					'bg': 'hsl(var(--algo-bg))',
+					'text': 'hsl(var(--algo-text))'
 				}
 			},
 			borderRadius: {
