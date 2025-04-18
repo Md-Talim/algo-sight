@@ -1,73 +1,131 @@
-# Welcome to your Lovable project
+# AlgoSight
 
-## Project info
+Explore and understand how different sorting algorithms work through step-by-step visualization!
 
-**URL**: https://lovable.dev/projects/fc8ef560-df19-44c1-872a-a344a0cc2ce0
+## 🚀 Features
 
-## How can I edit this code?
+- Modern React with TypeScript for type-safe development
+- Beautiful UI components using shadcn-ui
+- Responsive design with Tailwind CSS
+- Fast development with Vite
+- Comprehensive form handling with React Hook Form
+- Data visualization capabilities with Recharts
+- Dark mode support with next-themes
+- Toast notifications with Sonner
+- Advanced UI components from Radix UI
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **Frontend Framework**: React 18
+- **Language**: TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn-ui
+- **Form Handling**: React Hook Form
+- **Data Visualization**: Recharts
+- **Routing**: React Router DOM
+- **State Management**: React Query
+- **Date Handling**: date-fns
+- **Form Validation**: Zod
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fc8ef560-df19-44c1-872a-a344a0cc2ce0) and start prompting.
+## 🚦 Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (Latest LTS version recommended)
+- npm or yarn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone https://github.com/Md-Talim/algo-sight.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd algo-sight
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠️ Development
 
-**Use GitHub Codespaces**
+### Available Scripts
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build for development
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
 
-## What technologies are used for this project?
+## 🤝 Contributing
 
-This project is built with .
+We welcome contributions to AlgoSight! Here's how you can contribute:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. **Fork the Repository**
 
-## How can I deploy this project?
+   - Click the "Fork" button in the top right corner of the repository page
+   - This creates a copy of the repository in your GitHub account
 
-Simply open [Lovable](https://lovable.dev/projects/fc8ef560-df19-44c1-872a-a344a0cc2ce0) and click on Share -> Publish.
+2. **Clone Your Fork**
 
-## Can I connect a custom domain to my Lovable project?
+   ```sh
+   git clone https://github.com/YOUR_USERNAME/algo-sight.git
+   cd algo-sight
+   ```
 
-Yes, you can!
+3. **Create a New Branch**
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+   ```sh
+   git checkout -b feature/your-feature-name
+   ```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+4. **Make Your Changes**
+
+   - Write clear, maintainable code
+   - Follow the existing code style
+   - Add tests for new features
+   - Update documentation as needed
+
+5. **Commit Your Changes**
+
+   ```sh
+   git add .
+   git commit -m "Description of your changes"
+   ```
+
+6. **Push to Your Fork**
+
+   ```sh
+   git push origin feature/your-feature-name
+   ```
+
+7. **Create a Pull Request**
+   - Go to your fork on GitHub
+   - Click "Compare & pull request"
+   - Fill in the PR template with details about your changes
+   - Submit the pull request
+
+### Development Guidelines
+
+- Follow the existing code style and conventions
+- Write meaningful commit messages
+- Keep pull requests focused and small
+- Update tests and documentation
+- Respond to review comments promptly
+
+### Code Style
+
+- Use TypeScript for type safety
+- Follow ESLint rules
+- Use Prettier for code formatting
+- Write meaningful comments for complex logic
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
